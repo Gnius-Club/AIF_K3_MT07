@@ -1,24 +1,241 @@
-<!-- 
-HTML Template for Missions, delete and replace with mission HTML
--->
+
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Gnius Club</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Playbook - Preescolar Sesión 7</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
-  <h1>
-    Playbook HTML Placeholder Template
-  </h1>
-  <p>
-    Replace with actual playbook code.
-  </p>
-  <script src="script.js"></script>
+<header>
+<h1><span class="book-icon">📋</span> <strong>Playbook Sesión 7 Kínder I</strong></h1>
+<div class="header-widgets">
+<div class="timer-container">
+<span id="timer">⏱️ 00:00</span>
+<button id="startStop">Start</button>
+<button id="reset">Reset</button>
+</div>
+<div class="theme-toggle">
+<i class="fas fa-sun"></i>
+<label class="switch">
+<input type="checkbox" id="theme-toggle-input">
+<span class="slider round"></span>
+</label>
+<i class="fas fa-moon"></i>
+</div>
+</div>
+</header>
+<div class="main-container">
+<aside class="activity-list">
+<h2>Actividades</h2>
+<ul>
+<li><a href="#activity-0">📝</a></li>
+<li><a href="#activity-1">1</a></li>
+<li><a href="#activity-2">2</a></li>
+<li><a href="#activity-3">3</a></li>
+<li><a href="#activity-4">4</a></li>
+</ul>
+<div class="sidebar-info">
+<p>💡 Cada actividad está diseñada para ser lúdica y captar la atención de los más pequeños.</p>
+<p>⏱️ Los tiempos son una guía. Sé flexible y adáptate al ritmo del grupo.</p>
+</div>
+</aside>
+<main class="content">
+<div class="progress-bar">
+<div class="progress"></div>
+</div>
+<button id="toggle-dialogues">Mostrar todos los diálogos</button>
+<div class="activity-card" id="activity-0">
+<h2><span class="book-icon">📝</span> De un Vistazo: Misión: ¡A Programar la Ruta del Tesoro!</h2>
+<p class="overview-subtitle">¡Prepárate para una emocionante aventura! Aquí encontrarás un resumen rápido de los objetivos, los materiales mágicos que necesitarás y la preparación clave para que esta misión de aprendizaje sea un éxito rotundo.</p>
+<div class="overview-table-container">
+<table>
+<thead>
+<tr>
+<th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+<th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<strong>Objetivos de Aprendizaje:</strong>
+<ul>
+<li>Programar a Kinderbot para seguir una secuencia de 3-4 comandos visuales (tarjetas GCS).</li>
+<li>Introducir la idea de "leer" un código visual.</li>
+<li>Practicar la ejecución de un programa paso a paso.</li>
+</ul>
+<strong>Secuencia Didáctica de la Misión:</strong>
+<ul>
+<li>⚡ Actividad 1: Bienvenida y Calentamiento Cerebral</li>
+<li>⚡ Actividad 2: Planteamiento del Reto y Cuento</li>
+<li>⚡ Actividad 3: ¡Manos a la Obra! (Actividad Principal)</li>
+<li>⚡ Actividad 4: Puesta en Común y Cierre de la Misión</li>
+</ul>
+<strong>Entregable Clave:</strong>
+<ul>
+<li>Creación de una secuencia de 3-4 tarjetas GCS correctamente ordenada para guiar a Kinderbot al objetivo.</li>
+<li>Demostración de la "lectura" del código visual al ejecutar el programa de Kinderbot paso a paso.</li>
+<li>Participación activa y colaborativa en la planificación de la ruta.</li>
+</ul>
+</td>
+<td>
+<strong>Materiales Específicos:</strong>
+<ul>
+<li>Kinderbot.</li>
+<li>Mapa simple en el suelo hecho con cinta o LEGO Duplo.</li>
+<li>Tarjetas GCS visuales (flecha adelante, flecha girar, parar).</li>
+<li>Un "tesoro" (caja pequeña).</li>
+</ul>
+<strong>Preparación Previa para ESTA Sesión:</strong>
+<ol>
+<li><strong>Revisión de Materiales:</strong> Asegurar que todos los materiales estén completos, limpios y listos para ser repartidos. Verifica que Kinderbot tenga carga suficiente y que las tarjetas GCS estén en buen estado y sean fácilmente visibles.</li>
+<li><strong>Preparación del Espacio:</strong> Organizar el aula para facilitar la actividad. Define claramente el área donde se colocarán los "mapas" (con cinta o LEGO Duplo). Asegúrate de que haya suficiente espacio para que los niños se muevan y para que Kinderbot se desplace sin obstáculos. Considera tener un punto central para la bienvenida y el cierre.</li>
+<li><strong>Familiarización:</strong> Leer el playbook completo para entender el flujo narrativo, los diálogos y las transiciones. Practica los diálogos para que fluyan naturalmente. Ten clara la historia o el reto que se presentará y cómo conectar cada actividad con el tema pirata/programación.</li>
+</ol>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="activity-card" id="activity-1">
+<h2>⚡ Actividad 1: ¡Zarpamos! Calentamiento Pirata para Pequeños Programadores ⏰ 5 min</h2>
+<p>Nuestros valientes piratas programadores calientan motores con un juego de comandos y movimiento, ¡preparándose para la gran aventura!</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: ¡El Capitán Manda y la Tripulación Obedece! ⏰ 3 min</h3>
+<p>Comienza la clase con entusiasmo, introduciendo el tema pirata y la misión del día. Dirige el juego "El Capitán Manda" (una variación de Simón Dice). Asegúrate de que los niños tengan espacio para moverse con seguridad. Da instrucciones claras de movimiento como: "¡El Capitán manda... ¡tres pasos al frente!", "¡un giro a la derecha!", "¡dos pasos hacia atrás!". Observa cómo los niños interpretan y ejecutan los comandos. ¡Anímales con mucha energía! (Proyectar Diapositiva 1)</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">"¡Ahoy, marineros y marineras del código! ¡Bienvenidos a bordo de nuestra increíble aventura de hoy! Soy su Capitán de Misión y estamos a punto de zarpar en una búsqueda de tesoros muy especial. Pero antes de levantar anclas, ¿qué tal si calentamos nuestros motores con un juego? ¡El Capitán Manda! ¿Están listos para seguir mis órdenes? ¡Recuerden, solo si el Capitán Manda! ¡El Capitán manda... que den un paso grande al frente! ¡El Capitán manda... que den dos pasos pequeños hacia atrás! ¡El Capitán manda... que den un giro como un pirata en busca del tesoro!"</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: Movimientos Precisos para Pequeños Programadores ⏰ 2 min</h3>
+<p>Después de unos minutos de juego libre, introduce comandos más específicos que imiten las acciones que Kinderbot realizará. Por ejemplo, "El Capitán manda... ¡un paso de robot hacia adelante!", o "¡El Capitán manda... que giren solo un poquito!". Esto ayuda a los niños a pensar en movimientos discretos y secuenciales. (Proyectar Diapositiva 2)</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">"¡Excelente, tripulación! ¡Son muy buenos siguiendo órdenes! Ahora, ¿qué tal si intentamos movimientos un poco más especiales? ¡Imaginen que son robots piratas! ¡El Capitán manda... que den un paso de robot hacia adelante! ¡Eso es! ¡El Capitán manda... que giren como un robot! ¡Muy bien! ¡Están listos para nuestra misión!"</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-2">
+<h2>⚡ Actividad 2: El Mapa Secreto de Kinderbot: Descifrando el Código del Tesoro ⏰ 10 min</h2>
+<p>Descubrimos el lenguaje especial de Kinderbot y aprendemos a 'hablar' con él para guiarlo en su búsqueda del tesoro.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: Presentación de Nuestro Barco Robot: Kinderbot ⏰ 4 min</h3>
+<p>Reúne a los niños en un semicírculo o en un lugar donde todos puedan ver a Kinderbot. Con mucho entusiasmo, presenta a Kinderbot como el 'barco' especial que los ayudará en su misión pirata. Explica que, como un barco mágico, Kinderbot necesita instrucciones muy claras para saber a dónde ir. Crea una atmósfera de misterio y emoción alrededor de Kinderbot. (Proyectar Diapositiva 3)</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">"¡Muy bien, tripulación! Ahora que estamos listos, les presento a nuestro amigo, ¡Kinderbot! Él será nuestro barco en esta travesía. Pero hay un pequeño detalle... Kinderbot no entiende el lenguaje de los piratas como nosotros. ¡Él solo entiende un lenguaje muy, muy especial, un lenguaje secreto de piratas programadores! ¿Quieren descubrirlo? ¡Es como si Kinderbot tuviera su propio mapa secreto de comandos!"</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: Descifrando las Tarjetas del Código Secreto de Kinderbot ⏰ 6 min</h3>
+<p>Muestra las tarjetas GCS (flecha adelante, flecha girar, parar) una por una. Para cada tarjeta, explora con los niños su significado: "¿Qué creen que significa esta flecha?", "¿Qué pasaría si Kinderbot ve esta tarjeta?". Pídeles que imiten el movimiento o la acción de cada tarjeta. Refuerza que estas tarjetas son las "palabras" que Kinderbot entiende. Asegúrate de que todos comprendan el significado de cada tarjeta antes de continuar. (Proyectar Diapositiva 4)</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">"¡Miren estas tarjetas mágicas! ¡Cada una le dice a Kinderbot qué hacer! Esta es la flecha para ir hacia adelante. ¡Vamos, todos un paso hacia adelante como Kinderbot! ¡Súper! Y esta otra, ¡es para girar! ¡Giremos como un barco cambiando de rumbo! ¡Genial! Y esta última, ¡es para parar! ¡Congelados como estatuas piratas! ¿Podremos hablar el idioma de Kinderbot para ayudarlo a encontrar el tesoro? ¡Cada tarjeta es una instrucción, es una parte de su código secreto!"</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-3">
+<h2>⚡ Actividad 3: ¡Manos al Código! Construyendo la Ruta del Tesoro con Kinderbot ⏰ 20 min</h2>
+<p>En equipos, nuestros ingeniosos programadores diseñan el camino de Kinderbot usando tarjetas de comandos, ¡y ven su creación cobrar vida!</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: Organizando a la Tripulación y Presentando la Misión ⏰ 5 min</h3>
+<p>Divide a los niños en equipos pequeños (2-3 niños por equipo es ideal). Asigna un "mapa" simple (hecho con cinta o LEGO Duplo en el suelo) a cada equipo y un set de tarjetas GCS completo. Explica claramente la misión: cada equipo debe crear el "código" (la secuencia de tarjetas) para guiar a Kinderbot desde el inicio de su mapa hasta el "tesoro" (una caja pequeña). Enfatiza la importancia de trabajar juntos. (Proyectar Diapositiva 5)</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">"¡Atención, programadores y programadoras! ¡Llegó el momento de la verdad! ¡Es hora de la misión principal! Nos vamos a dividir en equipos de exploradores. Cada equipo tendrá un mapa del tesoro y estas tarjetas mágicas. Recuerden, nuestro amigo Kinderbot necesita que le digamos el camino exacto. ¡Leven anclas, programadores! ¡A preparar sus mapas! ¿Están listos para crear el mapa de código que llevará a nuestro barco al tesoro?"</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: Programando la Ruta con Tarjetas GCS ⏰ 10 min</h3>
+<p>Guía a cada equipo para que coloquen las tarjetas GCS en el suelo, una tras otra, formando la secuencia de comandos que Kinderbot debe seguir. Anima a los niños a discutir y probar diferentes órdenes. Pregúntales: "¿Qué tarjeta creen que debe ir primero para que Kinderbot empiece su viaje?", "¿Y después qué tarjeta necesita para ir por aquí?". Fomenta la colaboración y el pensamiento lógico. (Proyectar Diapositiva 6)</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">"¡Guau, qué equipo tan ingenioso! ¡Piensen como piratas programadores! ¿Qué tarjeta creen que debe ir primero para que Kinderbot empiece su viaje? ¡Súper! Y ahora, ¿qué sigue? ¡Recuerden que Kinderbot solo hace lo que le dicen sus tarjetas! ¡Pongan las tarjetas en el suelo, una tras otra, como si fueran los pasos que Kinderbot va a seguir!"</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 3: Ejecutando y Depurando el Programa de Kinderbot ⏰ 5 min</h3>
+<p>Una vez que los equipos tienen su 'programa' de tarjetas, pídeles que elijan a un "ejecutor" del equipo. Este niño debe presionar los botones de Kinderbot siguiendo el orden exacto de las tarjetas. Si Kinderbot no llega al tesoro, ¡no es un problema! Es una oportunidad para "depurar" (arreglar el error). Anima a los niños a revisar su secuencia de tarjetas y a identificar qué comando podría necesitar un cambio. Haz preguntas como: "¿Kinderbot fue a donde esperaban?", "¿Necesitamos cambiar alguna tarjeta?", "¿Qué pasaría si ponemos esta tarjeta aquí?". Celebra los intentos y el proceso de mejora. (Proyectar Diapositiva 7 y Diapositiva 8)</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">"¡Ahora viene la parte más emocionante! ¡Es hora de ver si nuestro código funciona! Un pirata programador del equipo va a ejecutar el programa, ¡presionando los botones de Kinderbot igual que las tarjetas que pusieron! ¡A ver qué pasa! ¡Si Kinderbot no llega al tesoro, no se preocupen! Podemos revisar nuestro mapa de código y ver dónde podemos mejorarlo. ¡Eso es depurar, como los piratas de verdad! Es como cuando un barco se desvía y necesitamos ajustar el timón. ¡Órale, ustedes pueden! ¡Miren bien sus tarjetas y piensen si necesitan cambiar algo!"</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-4">
+<h2>⚡ Actividad 4: ¡Tesoro Encontrado! Celebrando Nuestra Victoria de Programación ⏰ 5 min</h2>
+<p>Compartimos nuestros increíbles logros, celebramos cada ruta exitosa y reflexionamos sobre nuestra emocionante misión de programación.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: Compartiendo Nuestros Logros de Programación ⏰ 3 min</h3>
+<p>Reúne a todos los niños y pídeles que compartan cómo lograron que Kinderbot llegara al tesoro. Anima a cada equipo a mostrar su 'mapa de código' de tarjetas y cómo Kinderbot lo siguió. Celebra cada éxito con aplausos y felicitaciones. Reconoce el esfuerzo de todos, incluso si tuvieron que "depurar" varias veces. (Proyectar Diapositiva 9)</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">"¡Bravo, bravo, tripulación! ¡Han sido unos programadores piratas asombrosos! ¡Misión cumplida! ¿Quién quiere compartir cómo lograron que Kinderbot encontrara el tesoro? ¡Cuéntenme, qué tarjeta fue la más importante en su mapa de código? ¡Qué chido ver cómo sus programas funcionaron! ¡Un aplauso gigante para este equipo por su increíble trabajo!"</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: Reflexión y Despedida Pirata Programadora ⏰ 2 min</h3>
+<p>Felicita a todos por su excelente trabajo en equipo, su creatividad y por aprender a 'hablar' el lenguaje de Kinderbot. Refuerza la idea de que hoy fueron verdaderos programadores, dando instrucciones a un robot. Pregúntales qué fue lo que más les gustó o lo que aprendieron. Despide a la tripulación con una frase inspiradora. (Proyectar Diapositiva 10)</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">"¡MISIÓN CUMPLIDA, EQUIPO DE PROGRAMADORES PIRATAS! ¡Qué increíble aventura tuvimos hoy! Aprendimos a darle instrucciones a Kinderbot usando nuestras tarjetas mágicas. ¡Eso es programar! ¿Qué fue lo que más les gustó de esta aventura de programación? ¡Han demostrado ser unos genios del código! ¡Nos vemos en la próxima misión, mis pequeños programadores! ¡Un aplauso enorme para todos y un grito de pirata: ¡Aaaarrr! ¡Hasta la próxima aventura de código!"</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+<script src="script.js"></script>
 </body>
-
 </html>
